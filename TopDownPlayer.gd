@@ -87,16 +87,3 @@ func Animation() :
 	if animation.animation!=anim:
 		animation.play(anim)
 #####################################################
-
-
-#####################################################
-##
-##	CropMouseLeft
-## 
-##  Signal from any Crop gets leftclicked by user
-##
-#####################################################
-
-func CropMouseLeft(_crop):
-	print("Mouse Click " + str(_crop))
-#####################################################
